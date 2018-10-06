@@ -6,16 +6,16 @@ using namespace std;
 class employee
 {
 public:
-	string emN;
-	unsigned int sNum;
-	float s;
+	   string emN;
+	   unsigned int sNum;
+	   float s;
 
 public:
 	//static int numberOfEmployees;
 	void details(string n, unsigned int num)
 	{
-		emN = n;
-		sNum = num;
+		  emN = n;
+		  sNum = num;
 		//numberOfEmployees = num;
 	}//Details
 
@@ -52,7 +52,7 @@ private: float r;
 public: 
 	void setHourlyRate(float val)
 	{
-		r = val;
+		  r = val;
 	}//SetHourlyRate
 
 	void setHoursWorked(int worked)
